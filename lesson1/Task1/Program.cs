@@ -1,4 +1,1 @@
-﻿
-using System.Net.Security;
-
-Console.WriteLine ("Hello world");
+﻿Console.WriteLine ("Hello world");
