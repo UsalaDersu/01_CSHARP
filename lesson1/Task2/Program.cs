@@ -22,4 +22,16 @@ Console.WriteLine (quotient);
 
 d1 = 6;
 double quotient2 = i1 / d1;
-Console.WriteLine (quotient2);
+Console.WriteLine (quotient2); 
+
+int a =5;
+int b =7;
+
+if (a>b)
+{
+    Console.WriteLine (a);
+}
+else
+{
+    Console.WriteLine (b);
+}
