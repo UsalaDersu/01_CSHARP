@@ -1,5 +1,5 @@
-﻿int x = 0;
-int y = 0;
+﻿int x = 4;
+int y = -2;
 if (x > 0 & y > 0)
 {
     System.Console.WriteLine(" координата находится в 1 четверти");
