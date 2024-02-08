@@ -4,14 +4,19 @@
 //int[] array = {1, 5, 10, 20, 30, 40, 99, 4, 90, 3}; // Создание массива
 //Выводится: 5
 
-int[] array = { 1, 5, 10, 20, 30, 40, 99, 4, 90, 3 };
+int[] array = { 1, 5, 10, 20, 100, 40, 99, 4, 90, 3 };
 int quantity = 0;
 
 foreach (int e in array)
 {
     if (e >= 10 && e <= 90)
     {
-        quantity ++;
+        quantity++;
     }
 }
-System.Console.WriteLine($"Количество чисел в диапазоне от 10 до 90: {quantity}");
+System.Console.WriteLine(quantity);
+
+   
+
+
+
